@@ -1,0 +1,25 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+    align-items: center;
+    background-color: rgba(13, 13, 14, 0.863);
+    border-bottom: 2px solid rgba(240, 248, 255, 0.493) ;
+}
+.title{
+    color: rgba(240, 248, 255, 0.493);
+}
+.allLinks{
+    display: flex;
+    gap: 30px;
+}
+.link{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.493);
+    font-size: 20px;
+    transition: 0.5s;
+}
+.link:hover{
+    color: rgba(240, 248, 255, 0.767);
+    transition: 0.5s;
+}

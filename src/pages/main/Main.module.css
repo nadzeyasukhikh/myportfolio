@@ -1,0 +1,68 @@
+.main{
+   
+    text-align: center;
+    padding: 100px 0 100px 0;
+    border-bottom: 2px solid rgba(240, 248, 255, 0.493) ;
+}
+
+.title{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.hello{
+    color: rgba(240, 248, 255, 0.493);
+    font-size: 45px;
+}
+.name{
+    color: rgb(188, 146, 228);
+    font-size: 45px;
+}
+.text{
+    color: rgba(240, 248, 255, 0.493);
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.slogan{
+    color: rgba(240, 248, 255, 0.493);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.btn{
+    border: none;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color:rgba(240, 248, 255, 0.493) ;
+    color: rgb(104, 75, 131);;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: 0.5s;
+    margin-bottom: 50px;
+}
+.btn:hover{
+    background-color: rgba(240, 248, 255, 0.767);
+    transition: 0.5s;
+}
+.info{
+    border-bottom: 2px solid rgba(240, 248, 255, 0.493) ;
+    
+}
+
+.mySkTitle{
+    color: rgba(240, 248, 255, 0.493);
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+.mySkills{
+    display: flex;
+    justify-content: center;
+   
+}
+.mySkills a{
+    margin-left: 10px;
+}

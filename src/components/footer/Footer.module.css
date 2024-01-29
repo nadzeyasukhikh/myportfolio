@@ -1,0 +1,21 @@
+.footer{
+    padding: 30px 200px 10px 200px;
+    text-align: start;
+    background-color: rgba(13, 13, 14, 0.863);
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    color: rgba(240, 248, 255, 0.493);
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.link{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.info{
+    color: rgba(240, 248, 255, 0.493);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
