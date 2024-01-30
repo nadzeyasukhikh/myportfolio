@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import main from "../../assets/images/main.jpg";
 import styles from "./Main.module.css";
 function Main() {
@@ -6,6 +7,7 @@ function Main() {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
   };
+   const navigate = useNavigate()
   return (
     <main style={backgroundStyle} className={styles.main}>
       <div className={styles.info}>
@@ -15,7 +17,7 @@ function Main() {
         </div>
         <h3 className={styles.text}> a frontend developer</h3>
         <p className={styles.slogan}>with passion for learning and creating</p>
-        <button className={styles.btn}>MY PROJECTS</button>
+        <button className={styles.btn} onClick={() => navigate("/projects")}>MY PROJECTS</button>
       </div>
       <div >
         <p className={styles.mySkTitle}> MY SKILLS</p>
