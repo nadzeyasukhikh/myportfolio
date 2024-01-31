@@ -1,15 +1,36 @@
 import { useNavigate } from "react-router-dom";
 import main from "../../assets/images/main.jpg";
 import styles from "./Main.module.css";
+import { useEffect, useState } from "react";
+import image from "../../assets/images/niceday.jpg"
+
 function Main() {
-  const backgroundStyle = {
+ 
+
+  const [showModal, setShowModal] = useState(true);
+   const navigate = useNavigate();
+
+   useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowModal(false);
+    }, 5000);
+    return () => clearTimeout(timer)
+   }, []);
+
+   const backgroundStyle = {
     backgroundImage: `url(${main})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
   };
-   const navigate = useNavigate()
+
   return (
     <main style={backgroundStyle} className={styles.main}>
+      {showModal && (
+        <div className={styles.modal}>
+          <p className={styles.modalText}>Have a nice day!</p>
+          <img className={styles.modalImg} src={image} alt="Have a nice day" />
+        </div>
+      )}
       <div className={styles.info}>
         <div className={styles.title}>
           <h2 className={styles.hello}>Hi, my name is </h2>
