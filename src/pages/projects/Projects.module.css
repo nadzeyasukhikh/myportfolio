@@ -1,0 +1,46 @@
+.projectsDiv{
+    position: relative;
+    text-align: start;
+    
+    border-bottom: 2px solid rgba(240, 248, 255, 0.493) ;
+}
+.titleBtn{
+   margin-left: 400px;
+   padding-top: 50px;
+}
+.title{
+    color: rgba(240, 248, 255, 0.493);
+    font-size: 35px; 
+    margin-bottom: 30px;
+}
+
+    .btn{
+        border: none;
+        cursor: pointer;
+        padding: 15px 30px;
+        width: 200px;
+        border-radius: 8px;
+        background-color:rgba(240, 248, 255, 0.493) ;
+        color: rgb(104, 75, 131);
+        font-size: 25px;
+        font-weight: 600;
+        margin-top: 15px;
+        transition: 0.5s;
+        margin-bottom: 50px;
+    }
+    .btn:hover{
+        background-color: rgba(240, 248, 255, 0.767);
+        transition: 0.5s;
+    } 
+    .gitCode{
+        border-top: 2px solid rgba(240, 248, 255, 0.493);
+        text-align: center;
+
+    }
+    .link{
+        width: 200px;
+        height: 100px;
+        margin-left: 20px;
+        margin: 35px 10px 35px 10px;
+        border-radius: 8px;
+    }

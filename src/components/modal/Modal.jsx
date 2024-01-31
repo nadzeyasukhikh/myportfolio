@@ -8,7 +8,7 @@ function Modal ({ links, closeModal }){
             <div className={styles.modalCard}>
               {links.map((link, index) => (
                 <div key={index}>
-                    <a href={link.url} target="_blank" rel="noopener noreferrer">{link.name}</a>
+                    <a className={styles.link} href={link.url} target="_blank" rel="noopener noreferrer">{link.name}</a>
                 </div>
               ))}
             </div>
