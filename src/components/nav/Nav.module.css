@@ -40,6 +40,18 @@
         font-size: 15px;
     }
 }
+
+@media (max-width: 375px){
+    .nav{
+        padding: 10px 20px;
+    }
+    .title{
+        font-size: 18px;
+    }
+    .link{
+        font-size: 13px;
+    }
+}
 @media (max-width: 320px){
     .nav{
         padding: 10px 10px;
