@@ -86,7 +86,26 @@
         font-size: 20px;
     }
 }
-
+@media (max-width: 350px){
+    .modal{
+        left: 200px;
+        padding: 8px;
+        width: 100px;
+        top: 40px;
+        max-height: 200px; 
+    overflow-y: auto; 
+    overflow-x: hidden;
+    }
+    .close{
+        padding: 5px 5px;
+    width: 50px;
+    font-size: 10px;
+    margin-bottom: 8px;
+    }
+    .link{
+        font-size: 12px;
+    }
+}
 @media (max-width: 320px){
     .modal{
         left: 200px;
