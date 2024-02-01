@@ -40,7 +40,7 @@
         font-size: 15px;
     }
 }
-@media (max-width: 350px){
+@media (max-width: 320px){
     .nav{
         padding: 10px 10px;
     }
@@ -49,5 +49,16 @@
     }
     .link{
         font-size: 10px;
+    }
+}
+@media (max-width: 260px){
+    .nav{
+        padding: 5px 5px;
+    }
+    .title{
+        font-size: 12px;
+    }
+    .link{
+        font-size: 8px;
     }
 }

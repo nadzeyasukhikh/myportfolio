@@ -86,7 +86,8 @@
         font-size: 20px;
     }
 }
-@media (max-width: 350px){
+
+@media (max-width: 320px){
     .modal{
         left: 200px;
         padding: 8px;
@@ -106,12 +107,12 @@
         font-size: 12px;
     }
 }
-@media (max-width: 320px){
+@media (max-width: 260px){
     .modal{
-        left: 200px;
-        padding: 8px;
+        left: 140px;
+        padding: 5px;
         width: 100px;
-        top: 40px;
+        top: 30px;
         max-height: 200px; 
     overflow-y: auto; 
     overflow-x: hidden;
