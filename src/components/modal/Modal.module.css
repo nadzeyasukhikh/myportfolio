@@ -28,7 +28,7 @@
 .link{
     text-decoration: none;
     font-size: 25px;
-   
+   color: rgb(104, 75, 131);
 }
 .link:hover{
     color: rgb(62, 46, 77);
