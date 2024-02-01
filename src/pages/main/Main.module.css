@@ -162,6 +162,24 @@
         width: 50px;
     }
 }
+@media (max-width: 420px){
+    .main{
+        padding: 40px 0 50px 0;
+    }
+   
+    .modal{
+        left: 100px;
+        padding: 3px;
+        top: 7px;
+    }
+    .modalText{
+        font-size: 15px;
+    font-weight: 600; 
+    }
+    .modalImg{
+        width: 50px;
+    }
+}
 @media (max-width: 375px){
     .main{
         padding: 40px 0 50px 0;

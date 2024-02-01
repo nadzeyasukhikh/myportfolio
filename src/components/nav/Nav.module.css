@@ -40,6 +40,12 @@
         font-size: 15px;
     }
 }
+@media (max-width: 420px){
+    .nav{
+        padding: 10px 20px;
+    }
+    
+}
 
 @media (max-width: 375px){
     .nav{
