@@ -60,7 +60,7 @@
         margin-bottom: 8px;
     }
 }
-@media (max-width: 260px){
+@media (max-width: 280px){
     .footer{
         padding: 5px;
     }

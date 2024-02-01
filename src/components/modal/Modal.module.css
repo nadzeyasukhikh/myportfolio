@@ -107,7 +107,7 @@
         font-size: 12px;
     }
 }
-@media (max-width: 260px){
+@media (max-width: 280px){
     .modal{
         left: 140px;
         padding: 5px;
