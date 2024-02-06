@@ -4,6 +4,9 @@ import Modal from "../../components/modal/Modal";
 import styles from "./Projects.module.css"
 import gitHub from "../../assets/images/github.png"
 import codeWars from "../../assets/images/codewars.jpg"
+import JavaScriptRepositories from "../../utils/JavaScriptRepositories";
+import OtherRepositories from "../../utils/OtherRepositories";
+import ReactRepositories from "../../utils/ReactRepositories";
 function Projects(){
     const [modalData, setModalData] = useState({ isOpen: false, links: [] });
 
@@ -14,24 +17,11 @@ function Projects(){
       };
 
       const repositories = {
-        JavaScript: [
-            {name: "ClassSlider", url: "https://github.com/nadzeyasukhikh/projectFigmaSlider"},
-            {name: "DarkLight", url: "https://github.com/nadzeyasukhikh/DarkLight.project.fe"},
-            {name: "Game", url: "https://github.com/nadzeyasukhikh/MyProjects/tree/main/gameFE1"},
-            {name: "Site", url: "https://github.com/nadzeyasukhikh/FEPro_Project_1"},
-            {name: "projectJSDom", url: "https://github.com/nadzeyasukhikh/projectJSDomTR"},
-            {name: "project.ath.ts", url: "https://github.com/nadzeyasukhikh/project.ath.ts"}
-
-        ],
-        React: [
-            {name: "telrunproject", url: "https://github.com/nadzeyasukhikh/telrunproject"},
-            {name: "plannerpalatFE", url: "https://github.com/nadzeyasukhikh/plannerpalat"},
-            {name: "plannerpalatBE", url: "https://github.com/nadzeyasukhikh/planner-palat-backend"}
-        ],
-        Other: [
-            {name: "calc", url: "https://github.com/nadzeyasukhikh/MyProjects/tree/main/calc"}
-        ]
-      }
+        JavaScript: JavaScriptRepositories,
+        React: ReactRepositories,
+        Other: OtherRepositories
+    };
+    
 
       const openModal = (repoType) => {
         const repoLinks = repositories[repoType] || [];
