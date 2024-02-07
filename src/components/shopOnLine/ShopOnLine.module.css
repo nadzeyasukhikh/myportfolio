@@ -163,17 +163,17 @@
         font-size: 15px;
     }
     .title{
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
 @media (max-width: 375px){
     .text{
-        width: 280px;
+        width: 270px;
         font-size: 15px;
     }
     .title{
-        font-size: 25px;
+        font-size: 20px;
     }
     .btn{
         padding: 5px 10px;
@@ -181,11 +181,11 @@
     }
     .slider{
         
-        width: 280px;
+        width: 260px;
         height: 180px;
     }
     .image{
-        width: 280px;
+        width: 260px;
         height: 180px;
     }
 }
