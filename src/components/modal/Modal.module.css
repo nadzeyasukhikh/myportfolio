@@ -6,8 +6,8 @@
     left: 900px;
     border-radius: 8px;
     text-align: center;
-    width: 500px;
-    max-height: 300px; 
+    width: 600px;
+    max-height: 350px; 
     overflow-y: auto; 
     overflow-x: hidden;
 }

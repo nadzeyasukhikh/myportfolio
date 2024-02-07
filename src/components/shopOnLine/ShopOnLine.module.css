@@ -11,7 +11,7 @@
 }
 .image{
     width: 800px;
-    height: 400px;
+    height: 500px;
 }
 
 .btn{
@@ -56,4 +56,162 @@
 .link:hover{
     color: rgba(188, 203, 216, 0.493);
     transition: 0.5s;
+}
+@media (max-width: 1000px){
+    .shopDiv{
+        padding: 30px 100px 30px 100px; 
+    }
+    .slider{
+        margin-top: 20px;
+    }
+    .slider{
+        
+        width: 700px;
+        height: 400px;
+    }
+    .image{
+        width: 700px;
+        height: 400px;
+    }
+    .text{
+        width: 700px;
+        font-size: 20px;
+    }
+    .title{
+        margin-left: 25%;
+    }
+}
+@media (max-width: 850px){
+    .slider{
+        
+        width: 650px;
+        height: 350px;
+    }
+    .image{
+        width: 650px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px){
+    .shopDiv{
+        padding: 30px 70px 30px 70px; 
+    }
+    
+    .slider{
+        
+        width: 600px;
+        height: 300px;
+    }
+    .image{
+        width: 600px;
+        height: 300px;
+    }
+    .text{
+        width: 600px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 700px){
+    .slider{
+        
+        width: 500px;
+        height: 300px;
+    }
+    .image{
+        width: 500px;
+        height: 300px;
+    }
+    .text{
+        width: 500px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px){
+    .shopDiv{
+        padding: 30px 50px 30px 50px;
+        height: 100vh;
+    }
+    .btn{
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .text{
+        width: 350px;
+        font-size: 18px;
+    }
+    .slider{
+        
+        width: 300px;
+        height: 200px;
+    }
+    .image{
+        width: 300px;
+        height: 200px;
+    }
+    .link{
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px){
+    .text{
+        width: 300px;
+        font-size: 15px;
+    }
+    .title{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 375px){
+    .text{
+        width: 280px;
+        font-size: 15px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .btn{
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+    .slider{
+        
+        width: 280px;
+        height: 180px;
+    }
+    .image{
+        width: 280px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 320px){
+    .shopDiv{
+        padding: 20px 20px 20px 20px; 
+    }
+    .text{
+        width: 280px;
+        font-size: 15px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .btn{
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+    .slider{
+        
+        width: 250px;
+        height: 180px;
+    }
+    .image{
+        width: 250px;
+        height: 180px;
+    }
 }
