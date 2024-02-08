@@ -1,0 +1,217 @@
+.shopDiv{
+    padding: 30px 200px 30px 200px;
+    text-align: start;
+    border-bottom: 2px solid rgba(240, 248, 255, 0.493) ;
+}
+
+.slider{
+    margin: auto;
+    width: 800px;
+    height: 500px;
+}
+.image{
+    width: 800px;
+    height: 500px;
+}
+
+.btn{
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color:rgba(240, 248, 255, 0.493) ;
+    color: rgb(104, 75, 131);;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 15px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+.btn:hover{
+    background-color: rgba(240, 248, 255, 0.767);
+    transition: 0.5s;
+}
+.btnTitle{
+    display: flex;
+    align-items: center;
+}
+.title{
+    color: rgba(240, 248, 255, 0.493);
+    font-size: 45px;
+    margin-bottom: 20px;
+    margin-left: 35%;
+}
+.text{
+    color: rgb(188, 146, 228);
+    font-size: 25px;
+    margin-bottom: 20px;
+    width: 800px;
+}
+.link{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.493);
+    font-size: 25px;
+    transition: 0.5s;
+}
+.link:hover{
+    color: rgba(188, 203, 216, 0.493);
+    transition: 0.5s;
+}
+@media (max-width: 1000px){
+    .shopDiv{
+        padding: 30px 100px 30px 100px; 
+    }
+    .slider{
+        margin-top: 20px;
+    }
+    .slider{
+        
+        width: 700px;
+        height: 400px;
+    }
+    .image{
+        width: 700px;
+        height: 400px;
+    }
+    .text{
+        width: 700px;
+        font-size: 20px;
+    }
+    .title{
+        margin-left: 25%;
+    }
+}
+@media (max-width: 850px){
+    .slider{
+        
+        width: 650px;
+        height: 350px;
+    }
+    .image{
+        width: 650px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 768px){
+    .shopDiv{
+        padding: 30px 70px 30px 70px; 
+    }
+    
+    .slider{
+        
+        width: 600px;
+        height: 300px;
+    }
+    .image{
+        width: 600px;
+        height: 300px;
+    }
+    .text{
+        width: 600px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 700px){
+    .slider{
+        
+        width: 500px;
+        height: 300px;
+    }
+    .image{
+        width: 500px;
+        height: 300px;
+    }
+    .text{
+        width: 500px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px){
+    .shopDiv{
+        padding: 30px 50px 30px 50px;
+        height: 100vh;
+    }
+    .btn{
+        padding: 5px 10px;
+        font-size: 20px;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .text{
+        width: 350px;
+        font-size: 18px;
+    }
+    .slider{
+        
+        width: 300px;
+        height: 200px;
+    }
+    .image{
+        width: 300px;
+        height: 200px;
+    }
+    .link{
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px){
+    .text{
+        width: 300px;
+        font-size: 15px;
+    }
+    .title{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 375px){
+    .text{
+        width: 270px;
+        font-size: 15px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .btn{
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+    .slider{
+        
+        width: 260px;
+        height: 180px;
+    }
+    .image{
+        width: 260px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 320px){
+    .shopDiv{
+        padding: 20px 20px 20px 20px; 
+    }
+    .text{
+        width: 280px;
+        font-size: 15px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .btn{
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+    .slider{
+        
+        width: 250px;
+        height: 180px;
+    }
+    .image{
+        width: 250px;
+        height: 180px;
+    }
+}
