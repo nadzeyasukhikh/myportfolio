@@ -42,7 +42,7 @@ function PlanerPalat(){
         back
       </button>
       
-      <h2 className={styles.title}>Online store</h2>
+      <h2 className={styles.title}>todo and recipes</h2>
       </div>
       <p className={styles.text}>
       The "Todo and Recipes" project is created in React. It features a todo list and a recipe website. All background images change according to the season. Recipes can be added and removed. The todo list is saved using localStorage. Additionally, a backend for this project has been created, which is provided in the link.
