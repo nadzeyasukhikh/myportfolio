@@ -9,7 +9,13 @@ const ReactRepositories = [
         name: "todo and recipes",
         codeUrl: "https://github.com/nadzeyasukhikh/plannerpalat",
         componentName: "PlanerPalat"
+    },
+    {
+        name: "weather",
+        codeUrl: "https://github.com/nadzeyasukhikh/weather",
+        siteUrl: "https://weather-beta-taupe.vercel.app/"
     }
+
 ]
 
 export default ReactRepositories
